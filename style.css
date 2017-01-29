@@ -87,6 +87,7 @@ a:link, a:visited {
 
 
 
+
 .questions div {
 	background-color: rgba(0, 0, 0, 0.6);
 	min-height: 280px;
@@ -160,5 +161,31 @@ text-align: center;
 	top: 145px;
 
 }
+
+.backbutton {
+	font-family: 'Nunito', sans-serif; 
+	font-size: 16px;
+	color: white;
+	position: fixed;
+	padding: 10px;
+  z-index: 2;
+	top: 38px;
+	left: 28px;
+	text-decoration: none;
+  display: inline;
+	border-bottom: 3px solid transparent;
+	white-space: nowrap;
+	transition: 0.5s ease;
+	width: 0px;
+	height: 50px;
+	padding-left: 2px;
+	
+}
+.backbutton:hover {
+	border-bottom: 3px solid white;   
+	width: 90px;
+		
+}
+
 
 
